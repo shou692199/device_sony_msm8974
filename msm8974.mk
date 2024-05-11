@@ -66,9 +66,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     libshims_signal
 
-PRODUCT_PACKAGES += \
-    Snap
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -81,7 +78,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     gralloc.msm8974 \
     memtrack.msm8974 \
-    libgenlock \
     libmemalloc \
     liboverlay \
     libqdutils
@@ -184,8 +180,8 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.0-impl \
-    android.hardware.radio.deprecated@1.0-impl
+    android.hardware.radio@1.0 \
+    android.hardware.radio.deprecated@1.0
 
 PRODUCT_PACKAGES += \
     libaudioclient_shim
