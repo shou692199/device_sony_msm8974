@@ -18,6 +18,8 @@ PLATFORM_PATH := device/sony/msm8974-common
 
 TARGET_SPECIFIC_HEADER_PATH += $(PLATFORM_PATH)/include
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_CPU_ABI := armeabi-v7a
