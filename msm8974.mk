@@ -65,6 +65,9 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     libshims_signal
 
+PRODUCT_PACKAGES += \
+    Aperture
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
