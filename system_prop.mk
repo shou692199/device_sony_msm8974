@@ -108,6 +108,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OpenGL ES 3.0
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608 \
+    debug.sf.latch_unsignaled=1 \
     debug.renderengine.backend=threaded
 
 # Storage & USB OTG
