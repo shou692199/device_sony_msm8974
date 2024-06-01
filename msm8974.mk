@@ -20,6 +20,7 @@ include $(PLATFORM_PATH)/system_prop.mk
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(PLATFORM_PATH)/overlay \
+    $(PLATFORM_PATH)/overlay-radio \
     $(PLATFORM_PATH)/overlay-lineage
 
 ifneq ($(BOARD_HAVE_RADIO),false)
