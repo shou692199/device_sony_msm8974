@@ -34,11 +34,11 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
-    android.hardware.audio.effect@2.0-impl
+    android.hardware.audio.effect@2.0-impl \
+    android.hardware.bluetooth.audio@2.1-impl
 
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
-    audio.primary.msm8974 \
+    audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default
 
